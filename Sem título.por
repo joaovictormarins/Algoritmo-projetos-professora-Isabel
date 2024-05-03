@@ -1,13 +1,10 @@
 programa {
   funcao inicio() {
- inteiro x
- x = 5
-  para (inteiro i = 1; i < 4; i++)
-  {
-  x = x + 1
-  escreva (" o x vale ",x, " e i ", i,"\n")  }
-  escreva(x)
+  inteiro x 
+x=0 
+para(inteiro i=1;i<=5;i++)
+se (i % 2==0)
+x = x + 1
+escreva(x)
   }
-
-  }
-
+}
