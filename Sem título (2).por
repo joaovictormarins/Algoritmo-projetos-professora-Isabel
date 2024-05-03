@@ -1,0 +1,16 @@
+// Questão 7
+programa {
+  funcao inicio() {
+    inteiro meta_poupanca = 2000 
+    inteiro economia_mensal = 200
+    inteiro total_poupado = 0 
+    inteiro meses = 0
+    
+    enquanto (total_poupado < meta_poupanca) {
+      total_poupado = total_poupado + economia_mensal
+      meses = meses + 1
+    }
+    
+    escreva("Você atingirá a meta em ", meses, " meses.")
+  }
+}
